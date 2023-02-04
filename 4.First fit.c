@@ -42,15 +42,16 @@ int main()
     firstFit(blockSize, m, processSize, n);
     return 0 ;
 }
-
 OUTPUT:
+output:
+	
 Process No.     Process Size    Block no.
- 1                      115                             1
- 2                      500                             2
- 3                      358                             5
- 4                      200                             3
- 5                      375                             5
+ 1                      100                             Not Allocated
+ 2                      50                              4
+ 3                      30                              1
+ 4                      120                             Not Allocated
+ 5                      35                              Not Allocated
 
 --------------------------------
-Process exited after 0.3158 seconds with return value 0
+Process exited after 10.97 seconds with return value 0
 Press any key to continue . . .
